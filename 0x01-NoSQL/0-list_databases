@@ -1,2 +1,4 @@
 // This script lists all databases in MongoDB.
+// cat 0-list_databases | mongo
+
 show dbs
