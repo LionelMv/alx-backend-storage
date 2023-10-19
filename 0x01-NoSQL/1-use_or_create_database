@@ -1,2 +1,5 @@
 //This script creates or uses the database my_db
+// cat 0-list_databases | mongo
+// cat 1-use_or create_databases | mongo
+
 use my_db
