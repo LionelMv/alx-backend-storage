@@ -1,4 +1,5 @@
 // This script lists all documents in the collection school:
 // The database name will be passes as option of mongo command
+//cat 3-all | mongo my_db
 
 db.school.find()

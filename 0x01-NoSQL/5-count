@@ -1,4 +1,5 @@
 // This script displays the number of documents in the collection school
 // The database name will be passed as an option of mongo command.
+// cat 5-count | mongo my_db
 
 db.school.count()
