@@ -39,5 +39,6 @@ def log_stats(mongo_collection):
 
 if __name__ == "__main__":
     with MongoClient() as client:
-        collection = client.logs.nginx
+        db = client.logs
+        collection = db.nginx
         log_stats(collection)
