@@ -49,3 +49,7 @@ Potential issue if documents creation doesn’t work or this error: Data directo
 ```
 $ sudo mkdir -p /data/db
 ```
+
+## To Note:
+Most commands used for this project are not up to date with the latest mongo db.
+Check the documentation [here](https://www.mongodb.com/docs/manual/).
