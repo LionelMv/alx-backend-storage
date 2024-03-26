@@ -33,7 +33,7 @@ def log_stats(mongo_collection):
         print(f"\tmethod {method}: {documents}")
 
     status_get = mongo_collection.count_documents(
-        {"method": "GET"}, {"path": "/status"})
+        {"method": "GET", "path": "/status"})
     print(f"{status_get} status check")
 
 
